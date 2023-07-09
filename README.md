@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://github.com/ruruch11/rsschool-cv/blob/gh-pages/cv.md
+https://ruruch11.github.io/rsschool-cv/
