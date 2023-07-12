@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Assistant", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  margin-bottom: auto;
+  margin-top: 150px;
+}
+.header {
+  height: 50px;
+  background-color: #e494f2b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.nav-item {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: beige;
+  text-decoration: none;
+}
+
+.avatar {
+  border-radius: 100px;
+  float: left;
+}
+
+.section {
+  display: block;
+}
+.section_profile {
+  display: flex;
+  justify-content: center;
+}
+.section_profile_title {
+  text-transform: capitalize;
+  padding-top: 90px;
+  float: right;
+  margin-left: 100px;
+}
+
+.section_profile_desc {
+  margin-top: 5px;
+  font-style: italic;
+  font-weight: lighter;
+  color: rgb(94, 91, 91);
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.contacts_header {
+  height: fit-content;
+  border-left: 12px #e494f2b4 solid;
+  text-align: center;
+  padding-left: 14px;
+  margin-left: 300px;
+  text-transform: uppercase;
+}
+.contacts_list {
+  list-style-type: none;
+  margin-top: 50px;
+  margin: 0 auto;
+  /* text-align: left; */
+}
+
+.contacts_item {
+  font-weight: bold;
+}
+
+.contacts_link {
+  text-decoration: none;
+  color: rgb(255, 0, 179);
+}
+
+.summary {
+  display: flex;
+  justify-content: left;
+  margin-top: 100px;
+}
+.summary_header {
+  height: fit-content;
+  border-left: 12px #e494f2b4 solid;
+  text-align: center;
+  padding-left: 14px;
+  margin-left: 300px;
+  text-transform: uppercase;
+}
+.summary_text {
+  margin-top: 60px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: justify;
+  margin-right: 300px;
+}
+
+.education {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 100px;
+}
+.education_header {
+  height: fit-content;
+  border-left: 12px #e494f2b4 solid;
+  text-align: center;
+  padding-left: 14px;
+  margin-left: 300px;
+  text-transform: uppercase;
+}
+
+.edu_year {
+  font-weight: bold;
+  color: rgb(255, 0, 179);
+  text-decoration: dotted;
+}
+
+.college_link {
+  text-decoration: none;
+  color: gray;
+}
+.college_link:visited {
+  color: gray;
+}
+
+.skills_list {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.skill_item {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.skill_item:before {
+  content: "💟";
+}
+
+.gh_contact {
+  width: fit-content;
+}
+.gh_logo {
+  margin-top: 10px;
+  float: left;
+}
+
+.gh_link {
+  text-decoration: none;
+  color: blueviolet;
+  margin-left: 20px;
+  padding-top: 15px;
+  float: right;
+  font-weight: bold;
+}
+.footer {
+  margin-top: 50px;
+  height: 50px;
+  background-color: #e494f2b4;
+}
